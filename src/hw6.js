@@ -649,6 +649,7 @@ function updateBallPosition() {
   if (basketball.position.y <= groundLevel) {
     basketball.position.y = groundLevel;
     ballShotVelocity.y *= -bounceDamping;
+    bounceSound.currentTime = 0;
     bounceSound.play();
       
     if (Math.abs(ballShotVelocity.y) < 0.5) {
