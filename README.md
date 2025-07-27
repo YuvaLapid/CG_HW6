@@ -40,3 +40,6 @@
 - Multiple hoops with auto select
 - Sound effects when missing scoring and ball bounce
 - Ball rotation on the ground and in air
+
+## Screenshots
+- All screenshots are in the screenshots folder with a Gameplay video as well
